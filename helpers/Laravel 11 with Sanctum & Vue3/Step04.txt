@@ -1,0 +1,8 @@
+Step04: Sanctum settings
+app/Models/User.php ---------------------------------------------------------------------------------
+use Laravel\Sanctum\HasApiTokens;
+class User extends Authenticatable
+{
+    use HasFactory, Notifiable, HasApiTokens;
+}
+-----------------------------------------------------------------------------------------------------

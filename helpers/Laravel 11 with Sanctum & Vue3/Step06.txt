@@ -1,0 +1,7 @@
+Step06: Create Controller Files
+CMD -------------------------------------------------------------------------------------------------
+php artisan make:controller API\BaseController
+php artisan make:controller API\AuthController
+--------------------------------------------------------------------------------------------------------
+app/Http/Controllers/API/BaseController.php
+app/Http/Controllers/API/AuthController.php

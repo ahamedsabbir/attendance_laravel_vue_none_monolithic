@@ -1,0 +1,12 @@
+Step08: Install Vue Router
+CMD -------------------------------------------------------------------------------------------------
+npm -D install vue-router
+--------------------------------------------------------------------------------------------------------
+
+resources/js/router/index.js
+resources/js/app.js
+resources/js/components/Login.vue
+resources/js/components/Register.vue
+resources/js/components/layouts/Default.vue
+resources/js/components/Dashboard.vue
+resources/views/appHome.blade.php
